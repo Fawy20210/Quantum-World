@@ -1,5 +1,9 @@
 # Quantum World
 A particle simulation, which tries to imitate real quarks, the things atoms are made of.
+
+![alt Text](README-Assets/QuantumWorld-Preview1.gif)
+[***TRY IT OUT***](https://fawy2020.itch.io/quantum-world)
+
 ## How it works
 Each particle is either an <span style="color:red">*UP*</span> or <span style="color:blue">*DOWN*</span> quark, with the UP quarks being 2/3 positively and the DOWN quarks 1/3 negatively charged. Quarks of the same charge get repelled and those of different charge get attracted, with Up quarks pulling harder on DOWN quarks than DOWN quarks repell other DOWN quarks. For performance reasons theres a max interaction distance, past which particles ignore each other, but you can adjust it.
 
@@ -12,7 +16,7 @@ Each particle is either an <span style="color:red">*UP*</span> or <span style="c
 **Launch**
 1. Unzip the downloaded file.
 2. Open the unziped folder.
-3. Execute `Particle World.exe`
+3. Execute `Quantum World.exe`
 
 
 ### Linux
@@ -20,12 +24,12 @@ Each particle is either an <span style="color:red">*UP*</span> or <span style="c
 ***The following instructions may not be accurate, but I assume they should be.***
 
 **Download**
-- [Download from Github (latest release)](https://github.com/Fawy20210/Particle-World/releases/latest/download/ParticleWorld-linux-1.0.zip)
+- [Download from Github (latest release)](https://github.com/Fawy20210/Quantum-World/releases/latest/download/ParticleWorld-linux-1.0.zip)
 
 **Launch**
 1. Unzip the downloaded file.
 2. Open the unziped folder.
-3. Execute `ParticleWorld.x86_64`
+3. Execute `QuantumWorld-Linux-1.0.x86_64`
 
 ## Features
 
@@ -98,3 +102,12 @@ Each particle is either an <span style="color:red">*UP*</span> or <span style="c
 
 ### Control Details:
 **Camera Movement Speed Scale:** Multiplier to how fast the camera moves.
+
+## A small insight
+
+<details>
+<summary> <b>Why did I choose to run the computations on the GPU?</b> </summary>
+
+I chose to run the computation on the GPU because GPUs are normally really good at doing things in parallel, which is great if you need to compute many things that are pretty much the same, and the CPU would be to slow to do the same.
+ 
+</details>
