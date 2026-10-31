@@ -11,7 +11,7 @@ Each particle is either an UP or DOWN quark, with the UP quarks being 2/3 positi
 ### Windows
 **Download**
 - [Download on itch.io](https://fawy2020.itch.io/quantum-world)  
-- [Download from Github (latest release)](https://github.com/Fawy20210/Quantum-World)
+- [Download from Github (latest release)](https://github.com/Fawy20210/Quantum-World/releases/latest/download/QuantumWorld-1.0.zip)
 
 **Launch**
 1. Unzip the downloaded file.
@@ -24,7 +24,8 @@ Each particle is either an UP or DOWN quark, with the UP quarks being 2/3 positi
 ***The following instructions may not be accurate, but I assume they should be.***
 
 **Download**
-- [Download from Github (latest release)](https://github.com/Fawy20210/Quantum-World/releases/latest/download/ParticleWorld-linux-1.0.zip)
+- [Download on itch.io](https://fawy2020.itch.io/quantum-world)
+- [Download from Github (latest release)](https://github.com/Fawy20210/Quantum-World/releases/latest/download/QuantumWorld-linux-1.0.zip)
 
 **Launch**
 1. Unzip the downloaded file.
@@ -111,3 +112,6 @@ Each particle is either an UP or DOWN quark, with the UP quarks being 2/3 positi
 I chose to run the computation on the GPU because GPUs are normally really good at doing things in parallel, which is great if you need to compute many things that are pretty much the same, and the CPU would be to slow to do the same.
  
 </details>
+
+## Demo
+https://github.com/user-attachments/assets/050cfd95-3581-4845-b554-5265a58360dd
